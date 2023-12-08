@@ -77,5 +77,5 @@ echo "source /home/$target_user/.zsh/zsh-syntax-highlighting/zsh-syntax-highligh
 echo "# You are much cooler now.." 
 sleep 3
 echo "# To finnish this, please type 'zsh' and press enter"
-sleep 5
+sleep 3
 echo "Then log out or reboot to complete"
