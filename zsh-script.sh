@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/
-echo "# So you want a cool terminal? Is it for the 1337 h4x?"
+echo "# So you want a cool terminal"
 sleep 1
 read -p "# Please enter target username: " target_user
 sleep 1
@@ -45,7 +45,5 @@ echo "source /home/$target_user/.zsh/zsh-syntax-highlighting/zsh-syntax-highligh
 
 echo "# You are much cooler now.." 
 sleep 3
-echo "# To finish this, please type 'zsh' and press enter"
-sleep 2
-echo "Then log out or reboot to complete"
+echo "# To finish this, log out or reboot"
 sleep 2
