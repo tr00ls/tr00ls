@@ -47,7 +47,7 @@ if ! apt autoremove -y; then
 fi
 
 # Install packages
-if ! apt install wget net-tools sudo ncdu btop git zsh -y; then
+if ! apt install wget net-tools sudo ncdu btop git zsh fastfetch -y; then
     echo
     echo "Package installation failed. Exiting."
     sleep 1
